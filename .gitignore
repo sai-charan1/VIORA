@@ -1,0 +1,33 @@
+# Python cache and build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment and dependency files
+.env
+.venv/
+env/
+venv/
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Gradio and certificate files
+.gradio/
+*.pem
+
+# Audio and output files
+audio_question.mp3
+final.mp3
+test_speech_to_text.mp3
+test_text_to_speech.mp3
+
+# Lock and log files
+uv.lock
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
